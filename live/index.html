@@ -23,7 +23,7 @@
 
 
 
-<link rel="stylesheet" type="text/css" href="/css/jplayer.nrg.css" />
+<link rel="stylesheet" type="text/css" href="/css/jplayer.dalkas.css" />
 
 <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,greek-ext' rel='stylesheet' type='text/css'>
 
@@ -51,7 +51,7 @@ ready: function () {
 
 $(this).jPlayer("setMedia", {
 
-mp3: "http://alpha-stream.eu:9326/;mp3" }).jPlayer("play");
+m3u: "http://stream.zeno.fm/5ye7xw94tk8uv.m3u" }).jPlayer("play");
 
 },
 
@@ -325,7 +325,7 @@ counter++;
 
 <div id="blktop">
 
-<div id="logo"><a href="https://www.mariosblackman.gr" target="_blank"><img src="/radio/logo2.png"/></a></div> <!-- end logo-->
+<div id="logo"><a href="https://thalassaradio.gq" target="_blank"><img src="/radio/logo2.png"/></a></div> <!-- end logo-->
 
 
 
@@ -372,15 +372,15 @@ counter++;
 
 <script>
  $(document).ready(function() {
-     $("#songname").load("/radio/rdslive.php");
+     $("#songname").load("");
    var refreshId = setInterval(function() {
-     $("#songname").load("/radio/rdslive.php");
+     $("#songname").load("");
    }, 15000);
    $.ajaxSetup({ cache: false });
 });
 </script>
         
-<div class="playmisc">ΚΑΛΛΙΤΕΧΝΗΣ - ΤΙΤΛΟΣ:</div><div id="songname">
+<div class="playmisc">ΚΑΛΛΙΤΕΧΝΗΣ - ΤΙΤΛΟΣ:</div><!--<div id="songname">-->Μη διαθέσιμο
 
 
 
@@ -397,7 +397,7 @@ counter++;
 
 <div id="shareit">
 
-<div class="playmisc">SHARE:</div>
+<div class="playmisc">ΚΟΙΝΟΠΟΙΗΣΗ:</div>
 
 <br />
 
@@ -425,7 +425,7 @@ counter++;
 
 <div id="footerleft">
 
-<span style="margin-right:10px;">© 2021 MariosBlackman.gr </span> <span style="margin-right:10px;font-weight:bold;font-size:16px;">Κατέβασε το app </span> <a style="margin-right:10px;color:#f47300;font-weight:bold;font-size:16px;" href="https://play.google.com/store/apps/details?id=gr.radio.blackman" target="_blank"> Android </a> <a style="color:#f47300;font-weight:bold;font-size:16px;" href="https://itunes.apple.com/us/app/radio-blackman/id701477182?l=el&ls=1&mt=8" target="_blank"> iphone IOS </a>
+<span style="margin-right:10px;">©: 2021 Θάλασσα Radio </span> <!--<span style="margin-right:10px;font-weight:bold;font-size:16px;">Κατέβασε το app </span> <a style="margin-right:10px;color:#f47300;font-weight:bold;font-size:16px;" href="https://play.google.com/store/apps/details?id=gr.radio.blackman" target="_blank"> Android </a> <a style="color:#f47300;font-weight:bold;font-size:16px;" href="https://itunes.apple.com/us/app/radio-blackman/id701477182?l=el&ls=1&mt=8" target="_blank"> iphone IOS </a>-->
 
 </div>
 
